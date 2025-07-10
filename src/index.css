@@ -1,0 +1,158 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f3f4f6;
+}
+
+.container {
+  padding: 20px;
+  background-color: white;
+  margin: 30px auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.tool {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.tool-left,
+.tool-right {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.tool button {
+  background-color: #ffffff;
+  color: #111827;
+  border: 1px solid #d1d5db;
+  font-weight: 500;
+  font-size: 14px;
+  padding: 6px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.tool button:hover {
+  background-color: #f3f4f6;
+}
+
+.tool .action {
+  background-color: #14532d;
+  color: white;
+  border: none;
+}
+
+h1 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.table {
+  overflow-x: auto;
+  border-radius: 6px;
+}
+
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-size: 14px;
+  background-color: white;
+  border: 1px solid #e5e7eb;
+}
+
+thead {
+  background-color: #b6cade;
+  color: #374151;
+  font-weight: 600;
+}
+
+th, td {
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid #e5e7eb;
+  white-space: nowrap;
+}
+
+tr:hover {
+  background-color: #f1f5f9;
+}
+
+.status-badge {
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-weight: 500;
+  font-size: 12px;
+  display: inline-block;
+}
+
+.status-In-process {
+  background-color: #fef3c7;
+  color: #92400e;
+}
+
+.status-Need-to-start {
+  background-color: #dbeafe;
+  color: #1e40af;
+}
+
+.status-Complete {
+  background-color: #d1fae5;
+  color: #065f46;
+}
+
+.status-Blocked {
+  background-color: #fee2e2;
+  color: #991b1b;
+}
+
+/* All levels of first */
+.first-High {
+  color: #dc2626;
+  font-weight: 600;
+}
+
+.first-Medium {
+  color: #f59e0b;
+  font-weight: 600;
+}
+
+.first-Low {
+  color: #3b82f6;
+  font-weight: 600;
+}
+
+.footer {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+  border-top: 1px solid #b5c3df;
+  padding-top: 12px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #6b7280;
+}
+
+.footer div {
+  cursor: pointer;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+
+.footer div:hover,
+.footer .active {
+  background-color: #e5e7eb;
+  color: #111827;
+}
