@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-# react-spreadsheet assingmentcompleted
+# react-spreadsheet assingment completed
 =======
 # Getting Started with Create React App
 
